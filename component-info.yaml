@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ConditionalTemplate
+  description: ConditionalTemplate desc
+  tags:
+    - flutter
+    - ios
+    - android
+  annotations:
+    github.com/project-slug: yaacine/ConditionalTemplate
+    backstage.io/techdocs-ref: github:https://github.com/yaacine/ConditionalTemplate
+spec:
+  type: mobile_app
+  lifecycle: experimental
+  owner: yaacine
